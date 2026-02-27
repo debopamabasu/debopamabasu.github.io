@@ -1,9 +1,9 @@
 {
-  "name": "Your Name",
-  "tagline": "Designer · Developer · Creator",
-  "bio": "I'm a passionate professional who loves building things that matter. With expertise in design and development, I create experiences that are both beautiful and functional. Currently open to exciting opportunities.",
-  "email": "hello@yourname.com",
-  "location": "San Francisco, CA",
+  "name": "Debopama Basu",
+  "tagline": "Learning in progress...",
+  "bio": "I'm Debopama, an M.Tech student in System-on-Chip Design at IIT Palakkad, currently researching hardware security and post-quantum cryptography at IIT Kharagpur's SEAL Lab under Prof. Debdeep Mukhopadhyay. Before academia, I spent two years as a software engineer at Cognizant, working on application security for a fintech firm. I'm drawn to the intersection of hardware and security, understanding how systems can be broken so they can be built better. When I'm not staring at power traces or Verilog code, I'm probably singing."
+  "email": "debopama5696@gmail.com",
+  "location": "Kolkata, West Bengal",
   "avatar": "images/avatar.jpg",
   "resume": "resume.pdf",
 
