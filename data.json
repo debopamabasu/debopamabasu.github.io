@@ -1,70 +1,104 @@
 {
   "name": "Debopama Basu",
   "tagline": "Learning in progress...",
-  "bio": "I'm Debopama, an M.Tech student in System-on-Chip Design at IIT Palakkad, currently researching hardware security and post-quantum cryptography at IIT Kharagpur's SEAL Lab under Prof. Debdeep Mukhopadhyay. Before academia, I spent two years as a software engineer at Cognizant, working on application security for a fintech firm. I'm drawn to the intersection of hardware and security, understanding how systems can be broken so they can be built better. When I'm not staring at power traces or Verilog code, I'm probably singing."
+  "bio": "I'm Debopama, an M.Tech student in System-on-Chip Design at IIT Palakkad, currently researching hardware security and post-quantum cryptography at IIT Kharagpur's SEAL Lab under Prof. Debdeep Mukhopadhyay. Before academia, I spent two years as a software engineer at Cognizant, working on application security for a fintech firm. I'm drawn to the intersection of hardware and security — understanding how systems can be broken so they can be built better. When I'm not staring at power traces or Verilog code, I'm probably singing.",
   "email": "debopama5696@gmail.com",
   "location": "Kolkata, West Bengal",
   "avatar": "images/avatar.jpg",
   "resume": "Debopama_CV_2026.pdf",
 
   "social": [
-    { "platform": "GitHub",   "url": "https://github.com/yourusername",   "icon": "github" },
-    { "platform": "LinkedIn", "url": "https://linkedin.com/in/yourusername", "icon": "linkedin" },
-    { "platform": "Twitter",  "url": "https://twitter.com/yourusername",  "icon": "twitter" }
+    { "platform": "GitHub",   "url": "https://github.com/debopamabasu",             "icon": "github" },
+    { "platform": "LinkedIn", "url": "https://www.linkedin.com/in/debopamabasu/",   "icon": "linkedin" }
   ],
 
   "skills": [
-    { "category": "Frontend",  "items": ["React", "TypeScript", "CSS/SCSS", "Figma"] },
-    { "category": "Backend",   "items": ["Node.js", "Python", "PostgreSQL", "REST APIs"] },
-    { "category": "Tools",     "items": ["Git", "Docker", "AWS", "Vercel"] }
+    {
+      "category": "Hardware & VLSI",
+      "items": ["System Verilog", "Verilog", "Vivado HLS / HLx", "Synopsys Design Compiler", "FPGA Implementation", "LTSpice"]
+    },
+    {
+      "category": "Hardware Security",
+      "items": ["Power-based Side Channel Analysis", "Post-Quantum Cryptography", "Deep Learning based SCA", "Cryptanalysis"]
+    },
+    {
+      "category": "Programming",
+      "items": ["C / C++", "Python", "Java", "RISC-V Assembly", "Linux Shell Scripting", "MATLAB / Simulink"]
+    },
+    {
+      "category": "Software & Tools",
+      "items": ["Jira", "Jenkins CI/CD", "Fortify", "Git", "Spring Boot", "MySQL", "Postman"]
+    }
   ],
 
   "experience": [
     {
-      "company": "Awesome Company",
-      "role": "Senior Engineer",
-      "period": "2022 – Present",
-      "description": "Led a team of 5 engineers to rebuild the core product, improving performance by 40% and user satisfaction scores significantly."
+      "company": "IIT Kharagpur — SEAL Lab",
+      "role": "Research Project Intern",
+      "period": "Jun 2025 – Present",
+      "description": "Working under Prof. Debdeep Mukhopadhyay on hardware security and post-quantum cryptography. Performing side-channel attacks on cryptographic algorithms, building a side-channel resilient hardware security module in an IIT KGP incubated startup, and conducting deep learning-based side-channel analysis with hyperparameter exploration."
     },
     {
-      "company": "Previous Startup",
-      "role": "Full Stack Developer",
-      "period": "2019 – 2022",
-      "description": "Built features from zero to one, shipped multiple products, and worked closely with design and product teams."
+      "company": "Cognizant",
+      "role": "Junior Software Engineer",
+      "period": "Jul 2021 – Jun 2023",
+      "description": "Worked on vulnerability remediation for a fintech payments firm as part of the Application Security team. Remediated OWASP Top 10 vulnerabilities across Java Spring Boot microservices using Fortify, managed CI/CD pipelines via Jenkins, and led migration of microservices from Java 8 to Java 11. Achieved Microsoft Azure Fundamentals (AZ-900) certification."
+    },
+    {
+      "company": "Cognizant",
+      "role": "Application Development Intern",
+      "period": "Jan 2021 – Jun 2021",
+      "description": "Built frontend interfaces using HTML5, CSS3, JavaScript and Angular. Developed backend logic with Java Spring Boot, wrote JUnit tests, and integrated MySQL databases using JDBC."
     }
   ],
 
   "projects": [
     {
-      "title": "Project Alpha",
-      "description": "A SaaS platform that helps teams manage their workflows more efficiently. Built with React and Node.js.",
+      "title": "32-bit RISC-V Processor Simulator",
+      "description": "Designed a 32-bit single-cycle RISC-V processor simulator in Python, then extended it to a 5-stage pipelined processor with hazard detection, forwarding unit, branch predictor, and instruction/data caching. Validated functionality using benchmark programs.",
       "image": "images/project1.jpg",
-      "tags": ["React", "Node.js", "PostgreSQL"],
-      "url": "https://github.com/yourusername/project-alpha",
-      "demo": "https://project-alpha.vercel.app"
-    },
-    {
-      "title": "Project Beta",
-      "description": "An open-source design system used by 500+ developers. Fully accessible and customizable.",
-      "image": "images/project2.jpg",
-      "tags": ["TypeScript", "CSS", "Storybook"],
-      "url": "https://github.com/yourusername/project-beta",
+      "tags": ["Python", "RISC-V", "Computer Architecture"],
+      "url": "",
       "demo": ""
     },
     {
-      "title": "Project Gamma",
-      "description": "A mobile-first web app for tracking personal goals with beautiful data visualizations.",
+      "title": "SoC Hardware Accelerators",
+      "description": "Designed hardware accelerators for 512-point FFT, FIR filtering, image convolution, and DC component removal using Vivado HLS. Implemented on FPGA via HLx workflow and validated outputs against MATLAB results.",
+      "image": "images/project2.jpg",
+      "tags": ["Vivado HLS", "FPGA", "C", "MATLAB"],
+      "url": "",
+      "demo": ""
+    },
+    {
+      "title": "1-D & 2-D DCT via Systolic Array",
+      "description": "Implemented Discrete Cosine Transform using systolic array architecture, exploring efficient hardware design patterns for signal processing applications.",
       "image": "images/project3.jpg",
-      "tags": ["Vue.js", "D3.js", "Firebase"],
-      "url": "https://github.com/yourusername/project-gamma",
-      "demo": "https://project-gamma.app"
+      "tags": ["Verilog", "VLSI", "Digital Design"],
+      "url": "",
+      "demo": ""
+    },
+    {
+      "title": "Verilog VLSI Modules",
+      "description": "Developed Verilog modules for traffic light controller (FSM), N-bit Fibonacci generator, CORDIC (iterative & pipelined), GCD, FIR filter, and synchronous counters. Wrote testbenches and performed timing analysis for power and area optimization.",
+      "image": "images/project4.jpg",
+      "tags": ["Verilog", "FSM", "RTL Design", "Testbench"],
+      "url": "",
+      "demo": ""
+    },
+    {
+      "title": "Multi-threaded Performance Optimization",
+      "description": "Analyzed and optimized a tiled Matrix Multiplication application using Intel VTune. Progressively improved performance using pthreads, OpenMP, SIMD vectorization, and hierarchical tiling.",
+      "image": "images/project5.jpg",
+      "tags": ["C++", "OpenMP", "Intel VTune", "SIMD"],
+      "url": "",
+      "demo": ""
     }
   ],
 
   "photos": [
-    { "src": "images/gallery1.jpg", "caption": "Speaking at a conference" },
-    { "src": "images/gallery2.jpg", "caption": "Team hackathon" },
-    { "src": "images/gallery3.jpg", "caption": "Workshop session" },
-    { "src": "images/gallery4.jpg", "caption": "Behind the scenes" }
+    { "src": "images/gallery1.jpg", "caption": "At IIT Kharagpur" },
+    { "src": "images/gallery2.jpg", "caption": "Bit-by-Bit Hackathon 2025" },
+    { "src": "images/gallery3.jpg", "caption": "Research at SEAL Lab" },
+    { "src": "images/gallery4.jpg", "caption": "IIT Palakkad campus" }
   ]
 }
