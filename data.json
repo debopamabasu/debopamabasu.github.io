@@ -1,0 +1,70 @@
+{
+  "name": "Your Name",
+  "tagline": "Designer · Developer · Creator",
+  "bio": "I'm a passionate professional who loves building things that matter. With expertise in design and development, I create experiences that are both beautiful and functional. Currently open to exciting opportunities.",
+  "email": "hello@yourname.com",
+  "location": "San Francisco, CA",
+  "avatar": "images/avatar.jpg",
+  "resume": "resume.pdf",
+
+  "social": [
+    { "platform": "GitHub",   "url": "https://github.com/yourusername",   "icon": "github" },
+    { "platform": "LinkedIn", "url": "https://linkedin.com/in/yourusername", "icon": "linkedin" },
+    { "platform": "Twitter",  "url": "https://twitter.com/yourusername",  "icon": "twitter" }
+  ],
+
+  "skills": [
+    { "category": "Frontend",  "items": ["React", "TypeScript", "CSS/SCSS", "Figma"] },
+    { "category": "Backend",   "items": ["Node.js", "Python", "PostgreSQL", "REST APIs"] },
+    { "category": "Tools",     "items": ["Git", "Docker", "AWS", "Vercel"] }
+  ],
+
+  "experience": [
+    {
+      "company": "Awesome Company",
+      "role": "Senior Engineer",
+      "period": "2022 – Present",
+      "description": "Led a team of 5 engineers to rebuild the core product, improving performance by 40% and user satisfaction scores significantly."
+    },
+    {
+      "company": "Previous Startup",
+      "role": "Full Stack Developer",
+      "period": "2019 – 2022",
+      "description": "Built features from zero to one, shipped multiple products, and worked closely with design and product teams."
+    }
+  ],
+
+  "projects": [
+    {
+      "title": "Project Alpha",
+      "description": "A SaaS platform that helps teams manage their workflows more efficiently. Built with React and Node.js.",
+      "image": "images/project1.jpg",
+      "tags": ["React", "Node.js", "PostgreSQL"],
+      "url": "https://github.com/yourusername/project-alpha",
+      "demo": "https://project-alpha.vercel.app"
+    },
+    {
+      "title": "Project Beta",
+      "description": "An open-source design system used by 500+ developers. Fully accessible and customizable.",
+      "image": "images/project2.jpg",
+      "tags": ["TypeScript", "CSS", "Storybook"],
+      "url": "https://github.com/yourusername/project-beta",
+      "demo": ""
+    },
+    {
+      "title": "Project Gamma",
+      "description": "A mobile-first web app for tracking personal goals with beautiful data visualizations.",
+      "image": "images/project3.jpg",
+      "tags": ["Vue.js", "D3.js", "Firebase"],
+      "url": "https://github.com/yourusername/project-gamma",
+      "demo": "https://project-gamma.app"
+    }
+  ],
+
+  "photos": [
+    { "src": "images/gallery1.jpg", "caption": "Speaking at a conference" },
+    { "src": "images/gallery2.jpg", "caption": "Team hackathon" },
+    { "src": "images/gallery3.jpg", "caption": "Workshop session" },
+    { "src": "images/gallery4.jpg", "caption": "Behind the scenes" }
+  ]
+}
